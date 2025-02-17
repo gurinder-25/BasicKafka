@@ -14,22 +14,6 @@ This project consists of two Spring Boot applications demonstrating Apache Kafka
 - Simulates a **Customer application** receiving live delivery updates.
 - Uses **Spring Boot** and **Kafka Consumer API**.
 
-## Project Structure
-```
-├── producer-service
-│   ├── src/main/java/com/example/producer
-│   │   ├── ProducerApplication.java
-│   │   ├── KafkaProducerConfig.java
-│   │   ├── LocationProducer.java
-│   ├── resources/application.yml
-│
-├── consumer-service
-│   ├── src/main/java/com/example/consumer
-│   │   ├── ConsumerApplication.java
-│   │   ├── KafkaConsumerConfig.java
-│   │   ├── LocationConsumer.java
-│   ├── resources/application.yml
-```
 
 ## Technologies Used
 - **Java 17+**
